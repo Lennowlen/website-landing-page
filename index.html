@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Website Landing Page</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo">Website</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#projects" class="navbar__links">Projects</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#contact" class="navbar__links">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="home__container">
+            <h1 class="home__heading">Hello, I'm <span id="name">John Doe</span></h1>
+            <p class="home__description">I'm a software developer</p>
+        </div>
+    </section>
+
+    <!-- about section  -->
+     <section class="about" id="about">
+        <div class="about__container">
+            <h1 class="about__heading">About Me</h1>
+            <p class="about__description">I'm a software developer</p>
+        </div>
+     </section>
+
+     <!-- projects section -->
+     <section class="projects" id="projects">
+        <div class="projects__container">
+            <h1 class="projects__heading">Projects</h1>
+            <p class="projects__description">I'm a software developer</p>
+        </div>
+     </section>
+
+     <!-- contact section -->
+     <section class="contact" id="contact">
+        <div class="contact__container">
+            <form method="post">
+                <h1 class="contact__heading">Contact Me</h1>
+                <div class="form__container">
+                    <label for="fullname">Your Name</label>
+                    <input type="text" name="fullname" id="fullname" placeholder="John Doe">
+                    <label for="email">Your Email</label>
+                    <input type="email" name="email" id="email" placeholder="qK3yT@example.com">
+                    <label for="message">Your Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+        </div>
+     </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
